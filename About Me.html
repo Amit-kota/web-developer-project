@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me </title>
+<style>
+ul.topnav{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333;
+position:fixed;
+top:0;
+width:100%;
+}
+ul.topnav li{
+float: left;
+border-right:1px solid #bbb;
+}
+ul.topnav li:last-child{
+border-right:none;
+}
+ul.topnav li a {
+display:block;
+color:white;
+text-align:center;
+padding:14px;
+text-decoration:none;
+}
+ul.topnav li a:hover:not(.active){
+background-color:#111;
+}
+ul.topnav li a.active{
+background-color:#4CAF50;
+}
+body{
+background-image:url('milky-way-starry-sky-night-sky-star-956999.jpeg');
+}
+#mySidenav a {
+    position: absolute; 
+    left: -115px;
+    transition: 0.3s;
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+  }
+#about{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+ #mySidenav a:hover {
+    left: 0; 
+  }
+ 
+ #insta {
+    top: 110px;
+    background-color: rgb(122, 228, 255);
+  }
+ #linkedIn {
+    top: 170px;
+    background-color: #2196F3;
+  }
+ #github {
+    top: 230px;
+    background-color: #000000; 
+  }
+ #face {
+    top: 290px;
+    background-color: #2190f3;
+  }
+ #logo {
+      height: 20px;
+      width: 20px;
+  }
+</style>
+</head>
+<body>
+<ul class="topnav">
+<li><a href="home.html">Home</a></li>
+<li><a class="active" href="About Me.html">About Me</a></li>
+<li><a href="Location.html">Location</a></li>
+<li><a href="Projects.html">Projects</a></li>
+<li><a href="Subjects in the semester.html">Subjects in the semester</a></li>
+<li><a href="About HTML.html">About HTML</a></li>
+</ul><br>
+<u><h1 style="color:yellow"> Personal Details:</h1></u>
+<img src="IMG-20200211-WA0012.jpg" alt="no image" style="float:right ;width:500px ;height:400px;">
+<ul>
+<li><h2>Name:Amit Garg</h2></li>
+<li><h2>College:<a href="https://www.iiitkota.ac.in/">IIIT KOTA</a></h2></li>
+<li><h2>Year(Semester):1st(II)</h2></li>
+<li><h2>Course:B.Tech</h2></li>
+<li><h2>Branch:C.S.E.</h2></li>
+<li><pre style="font-size:150%"><b>I am learning coding languages starting from C language.</b></pre></li>
+<li><pre style="font-size:150%"><b>I am also learning web development.</b></pre></li>
+<li><pre style="font-size:150%"><b>I am also interested in learning about ethical hacking
+and cyber security.</b>
+</pre></li>
+</ul>
+<div id="mySidenav" class="sidenav">
+        <a href="https://www.linkedin.com/in/amit-garg-a7089b191" id="linkedIn" target="_blank"><img
+                src="linkedIn.png" id="logo">linkedIn</a>
+        <a href="https://www.instagram.com/amitgarg6946/" id="insta" target="_blank"><img src="insta.jpg"
+                id="logo">Instagram</a>
+        <a href="https://github.com/Amit-kota"  id="github" target="_blank"><img src="gitHub.png"
+                id="logo">Github</a>
+        <a href="https://www.facebook.com/profile.php?id=100008328548272" id="face" target="_blank"><img src="facebook.png"
+        id="logo">Facebook</a>
+    </div>
+</body>
+</html>
